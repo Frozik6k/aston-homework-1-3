@@ -2,7 +2,7 @@ package org.example;
 
 import java.io.IOException;
 
-public class NoSettingException extends IOException {
+public class InvalidSettingException extends IOException {
 
     private final String message = "Это не файл найстроек";
 
